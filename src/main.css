@@ -1,0 +1,107 @@
+:root {
+    background-color: #8c4303;
+    font-size: 16px;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+}
+
+nav {
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+}
+
+
+
+
+.menu {
+    height: 100%;
+    width: 100vw;
+    display: flex;
+}
+
+
+
+.menu button {
+    flex: 2 1 0;
+    background-color: #261201;
+    border: none;
+    font-size: 2.7rem;
+    transition: all 0.2s;
+    border-right: 1px solid rgba(250, 250, 250, 0.2);
+    border-bottom: 1px solid rgba(250, 250, 250, 0.2);
+    color: #ED9600;
+    background-color: transparent;
+    font-family: "Caveat";
+}
+
+.menu .btns {
+    flex: 1;
+    max-height: 10vh;
+    width: 100vw;
+    display: flex;
+    border-top: 1px solid rgba(250, 250, 250, 0.2);
+}
+
+.menu img {
+    max-height: 10vh;
+
+}
+
+.menu button:hover {
+    font-size: 3rem;
+    border-bottom: 8px solid #8C4E03;
+
+}
+
+.menu .active {
+    border-bottom: 8px solid #8C4E03;
+}
+
+.menu-background {
+    width: 100vw;
+    height: 100vh;
+}
+
+.about-tsagga {
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(140, 67, 3, 0.7);
+    border-radius: 30px;
+    font-family: "Thasadith";
+    font-size: 1.7rem;
+    line-height: 35px;
+    font-weight: 500;
+    color: lightgray;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+@media screen and (max-width: 850px) {
+    .about-tsagga {
+        width: 100%;
+        font-size: 1.3rem;
+        line-height: 30px;
+        padding: 0;
+    }
+
+    .menu img {
+        width: 100vw;
+        background-color: #8C4E03;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+
+
+}
