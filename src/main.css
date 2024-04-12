@@ -1,19 +1,15 @@
 :root {
     background-color: #8c4303;
-    font-size: 16px;
-    height: 100vh;
 }
 
-.content {
-    display: flex;
-}
+
 
 nav {
     position: fixed;
+    top: 0;
     width: 100vw;
-    height: 10vh;
+    height: 20vh;
 }
-
 
 
 
@@ -27,7 +23,6 @@ nav {
 
 .menu button {
     flex: 2 1 0;
-    background-color: #261201;
     border: none;
     font-size: 2.7rem;
     transition: all 0.2s;
